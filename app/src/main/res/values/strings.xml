@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Zp Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="museums_fragment">Museums</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="places">Places</string>
+    <string name="title_activity_more_info">More info..</string>
+    <!--__________________Categories_____________________-->
+    <string name="food">Food</string>
+    <string name="nightlife">Nightlife</string>
+    <string name="shopping">Shopping</string>
+    <string name="museums">Museums&amp;Attraction</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="hotels">Hotels</string>
+    <string name="gums">Gyms</string>
+
+    <!--__________________More Activity_____________________-->
+    <string name="tel">tel:</string>
+    <string name="adress">Address:</string>
+
+</resources>

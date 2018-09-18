@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Гид Запорожья</string>
+    <string name="title_activity_more_info">Подробнее..</string>
+    <!--__________________Категории_____________________-->
+    <string name="food">Еда</string>
+    <string name="nightlife">Ночная жизнь</string>
+    <string name="shopping">Шопинг</string>
+    <string name="museums">Музеи и Достопремечательности</string>
+    <string name="entertainment">Развлечения</string>
+    <string name="hotels">Отели</string>
+    <string name="gums">Спортзалы</string>
+
+    <!--__________________More Activity_____________________-->
+    <string name="tel">tel:</string>
+    <string name="adress">Address:</string>
+</resources>
