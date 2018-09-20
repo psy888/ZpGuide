@@ -2,9 +2,12 @@ package com.example.android.zaporozhuyeguide;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -32,6 +35,7 @@ public class more extends AppCompatActivity {
     }
 
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,6 +75,8 @@ public class more extends AppCompatActivity {
 
         TextView name = findViewById(R.id.bigSightName);
         name.setText(sight.getName());
+
+        //name.setAutoSizeTextTypeUniformWithConfiguration(16, 48, 2, TypedValue.COMPLEX_UNIT_SP);
 
         TextView about = findViewById(R.id.about);
         about.setText(sight.getAbout());

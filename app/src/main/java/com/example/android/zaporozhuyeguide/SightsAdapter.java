@@ -38,9 +38,9 @@ public class SightsAdapter extends ArrayAdapter<Sights> {
         name.setText(currentSight.getName());
 
         //Выводим телефон
-        TextView phone = listItemView.findViewById(R.id.phone);
+       /* TextView phone = listItemView.findViewById(R.id.phone);
         phone.setText(currentSight.getPhone());
-
+*/
         return listItemView;
 
     }

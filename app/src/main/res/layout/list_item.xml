@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="@dimen/def_padding">
 
     <ImageView
         android:id="@+id/sightPic"
@@ -21,17 +22,20 @@
         <TextView
             android:id="@+id/sightName"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:paddingBottom="4dp"
-            android:textSize="24sp"
+            android:textSize="@dimen/p"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textColor="@color/def_color"
             tools:text="Hello World" />
-
+<!--
         <TextView
             android:id="@+id/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="@dimen/h2"
             tools:text="80661112223" />
-
+-->
     </LinearLayout>
 </RelativeLayout>

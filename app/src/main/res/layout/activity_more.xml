@@ -20,28 +20,38 @@
             android:id="@+id/bigSightName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-40dp"
-            android:paddingLeft="8dp"
-            android:textSize="32sp"
+            android:layout_marginTop="@dimen/neg_marg"
+            android:paddingLeft="@dimen/def_padding"
+            android:textSize="@dimen/h1"
+            android:textColor="@color/def_color"
+            android:background="#80ffffff"
             tools:text="Hello World" />
 
         <TextView
             android:id="@+id/about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:textSize="@dimen/p"
+            android:padding="@dimen/def_padding"
+            android:textColor="@color/def_color"
             tools:text="HHHHHHHHHHHHHHddddddddddddddddddddeeeeeeeeeeeeeeeeeeaaaaaaaaaaerfdsfadgfldjgvmflckgmvfclkgmvfkcgmvefkcgmvf;v" />
 
         <TextView
             android:id="@+id/bigPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/def_padding"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
             tools:text="8(061)225 55 55" />
 
         <TextView
             android:id="@+id/bigAdress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/def_padding"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
             tools:text="г.Запорожье пр-т. Соборный, 142" />
 
     </LinearLayout>
