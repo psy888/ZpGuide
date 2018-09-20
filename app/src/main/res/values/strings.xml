@@ -19,4 +19,7 @@
     <string name="tel">tel:</string>
     <string name="adress">Address:</string>
 
+    <!--__________________Museums fragment_____________________-->
+    <!-- Hortica -->
+    <string name="name_Hortica">Khortitsa National Nature Reserve</string>
 </resources>

@@ -36,7 +36,7 @@ public class PlacesFragment extends Fragment {
         final ArrayList<Sights> places = new ArrayList<>();
 
         //Добавляем записи в массив
-        places.add(new Sights("Площадь ленина", "пр-т. Ленина 196", "0612777777", "стоял ленин", R.drawable.khort));
+        //places.add(new Sights("Площадь ленина", "пр-т. Ленина 196", "0612777777", "стоял ленин", R.drawable.khort));
 
         //Создание экземпляра адаптера для ListView
         SightsAdapter sightsAdapter = new SightsAdapter(getActivity(), places);

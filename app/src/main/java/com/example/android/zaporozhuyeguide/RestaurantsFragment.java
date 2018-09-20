@@ -36,7 +36,7 @@ public class RestaurantsFragment extends Fragment {
         final ArrayList<Sights> restaurants = new ArrayList<>();
 
         //Добавляем записи в массив
-        restaurants.add(new Sights("Ресторан Россия", "пр-т. Ленина 182", "0612565111", "Ресторан вкусно дорого и т.д", R.drawable.khort));
+        //restaurants.add(new Sights("Ресторан Россия", "пр-т. Ленина 182", "0612565111", "Ресторан вкусно дорого и т.д", R.drawable.khort));
 
         //Создание экземпляра адаптера для ListView
         SightsAdapter sightsAdapter = new SightsAdapter(getActivity(), restaurants);
