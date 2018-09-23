@@ -36,8 +36,53 @@ public class NightlifeFragment extends Fragment {
         final ArrayList<Sights> places = new ArrayList<>();
 
         //Добавляем записи в массив
-        //places.add(new Sights("Площадь ленина", "пр-т. Ленина 196", "0612777777", "стоял ленин", R.drawable.khort));
-
+        places.add(new Sights(
+                getString(R.string.intouristhotel_name),
+                getString(R.string.intouristhotel_adr),
+                getString(R.string.intouristhotel_phone),
+                getString(R.string.intouristhotel_about),
+                R.drawable.intourist,
+                R.drawable.big_intourist));
+        places.add(new Sights(
+                getString(R.string.soborniyhotel_name),
+                getString(R.string.soborniyhotel_adr),
+                getString(R.string.soborniyhotel_phone),
+                getString(R.string.soborniyhotel_about),
+                R.drawable.hotelsoborniy,
+                R.drawable.big_hotelsoborniy
+        ));
+        places.add(new Sights(
+                getString(R.string.teatralniyhotel_name),
+                getString(R.string.teatralniyhotel_adr),
+                getString(R.string.teatralniyhotel_phone),
+                getString(R.string.teatralniyhotel_about),
+                R.drawable.teatralniy,
+                R.drawable.big_teatralniy
+        ));
+        places.add(new Sights(
+                getString(R.string.khorticahotel_name),
+                getString(R.string.khorticahotel_adr),
+                getString(R.string.khorticahotel_phone),
+                getString(R.string.khorticahotel_about),
+                R.drawable.khortica_palace,
+                R.drawable.big_khortica_palace
+        ));
+        places.add(new Sights(
+                getString(R.string.praguehotel_name),
+                getString(R.string.praguehotel_adr),
+                getString(R.string.praguehotel_phone),
+                getString(R.string.praguehotel_about),
+                R.drawable.prague,
+                R.drawable.big_prague
+        ));
+        places.add(new Sights(
+                getString(R.string.sunricsehotel_name),
+                getString(R.string.sunricsehotel_adr),
+                getString(R.string.sunricsehotel_phone),
+                getString(R.string.sunricsehotel_about),
+                R.drawable.sunricsehotel,
+                R.drawable.big_sunricsehotel
+        ));
         //Создание экземпляра адаптера для ListView
         SightsAdapter sightsAdapter = new SightsAdapter(getActivity(), places);
 

@@ -22,10 +22,11 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="@dimen/neg_marg"
+            android:autoSizeTextType="uniform"
             android:padding="@dimen/def_padding"
-            android:textSize="@dimen/h1"
             android:textColor="@color/def_color"
             android:background="#80ffffff"
+            android:textSize="@dimen/h1"
             app:autoSizeTextType="uniform"
             tools:text="Hello World" />
 
@@ -33,9 +34,9 @@
             android:id="@+id/about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/p"
             android:padding="@dimen/def_padding"
             android:textColor="@color/def_color"
+            android:textSize="@dimen/p"
             tools:text="HHHHHHHHHHHHHHddddddddddddddddddddeeeeeeeeeeeeeeeeeeaaaaaaaaaaerfdsfadgfldjgvmflckgmvfclkgmvfkcgmvefkcgmvf;v" />
 
         <TextView
@@ -51,8 +52,9 @@
             android:id="@+id/bigAdress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/def_padding"
             android:layout_marginBottom="@dimen/fab_margin"
+            android:baselineAligned="false"
+            android:padding="@dimen/def_padding"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"
             tools:text="г.Запорожье пр-т. Соборный, 142" />

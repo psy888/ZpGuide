@@ -1,10 +1,5 @@
 <resources>
     <string name="app_name">Zp Guide</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="museums_fragment">Museums&amp;Attraction</string>
-
-    <string name="places">Places</string>
     <string name="title_activity_more_info">More info..</string>
     <string name="imgDescr">Small preview of sight</string>
     <!--__________________Categories_____________________-->
@@ -17,14 +12,98 @@
     <string name="gyms">Gyms</string>
 
     <!--__________________More Activity_____________________-->
-    <string name="tel">tel:</string>
-    <string name="adress">Address:</string>
     <string name="map">View on map..</string>
+
 
     <!--__________________Museums fragment_____________________-->
     <!-- Hortica -->
     <string name="name_Hortica">Khortitsa National Nature Reserve</string>
 
+    <!--__________________Hotels fragment_____________________-->
+    <!--  "Intourist Hotel" -->
+    <string name="intouristhotel_name">Intourist Hotel</string>
+    <string name="intouristhotel_adr">Sobornyi Ave 135, Zaporozhye, 69005, Ukraine</string>
+    <string name="intouristhotel_phone">-</string>
+    <string name="intouristhotel_about">Intourist is a business hotel located in the centre of
+        Zaporozhye near the Dnieper River. It offers spacious accommodations, a business centre, and
+        free Wi-Fi.\n\nEach room comes equipped with cable TV and a minibar. Rooms at Intourist
+        Hotel also have private bathrooms with hairdryers. Some rooms have large windows and views
+         of Lenin Prospect.\n\nThere is also a Ukrainian restaurant and Lobby bar on site.
+        A complimentary buffet breakfast is also provided.\n\nIntourist Hotel is a 12-minute drive
+        from Khortytsia Island. Private and secure parking facilities are available upon request.
+        \n\nCouples particularly like the location — they rated it 8.3 for a two-person trip.
+        \n\nWe speak your language!</string>
+    <!--  "Soborniy Hotel" -->
+    <string name="soborniyhotel_name">Soborniy Hotel</string>
+    <string name="soborniyhotel_adr">Sobornyi Ave 28, Zaporozhye, 69063, Ukraine</string>
+    <string name="soborniyhotel_phone">-</string>
+    <string name="soborniyhotel_about">This hotel in the centre of Zaporozhye has free fenced parking and free Wi-Fi. It is a 5-minute walk from Zaporozhye Local History Museum.\n
+                        \nThe rooms at the Soborniy Hotel feature warm colours and large windows. Safety deposit boxes, bathrobes and slippers are provided.\n
+                        \nSoborniy’s seasonal spa area features a pool and a sauna. Guests can also book massages.\n
+                        \nMeal delivery is provided upon request. A range of drinks are on offer in the hotel bar.\n
+                        \nZaporozhye-2 Train Station is a 10-minute walk from the Soborniy Hotel. \n
+                        \nCouples particularly like the location — they rated it 8.6 for a two-person trip.\n
+                        \nThis property is also rated for the best value in Zaporozhye! Guests are
+        getting more for their money when compared to other properties in this city.</string>
+    <!-- "Teatralniy Hotel" -->
+    <string name="teatralniyhotel_name">Teatralniy Hotel</string>
+    <string name="teatralniyhotel_adr">Troitskaya St. 23 , Zaporozhye, 69063, Ukraine</string>
+    <string name="teatralniyhotel_phone">-</string>
+    <string name="teatralniyhotel_about">Just 100 m from the Magara Theatre, this bright and modern
+        hotel offers a central location in Zaporozhye. Free parking, soundproofed rooms and an
+        international restaurant are featured here.\n\nTeatralniy Hotel’s elegant rooms have rich
+        carpet flooring, a flat-screen TV and free Wi-Fi.\n\nA buffet breakfast with hot and cold
+        dishes is provided every morning at Teatralniy. International and Ukrainian cuisine is
+        served in the restaurant, and a range of drinks are available at the lobby bar. Breakfast
+        is included in the price.\n\nGuests can reach all parts of the city from Zaporozhye
+        Train Station, a 10-minute walk away. Zaporozhye Airport is 12 km from the hotel, and a
+        shuttle service is available. \n\nThis property also has one of the best-rated locations
+        in Zaporozhye! Guests are happier about it compared to other properties in the area.\n\n
+        Couples particularly like the location — they rated it 9.0 for a two-person trip.\n\n
+        This property is also rated for the best value in Zaporozhye! Guests are getting more for
+        their money when compared to other properties in this city.
+                </string>
+
+    <!--Khortitsa Palace Hotel-->
+    <string name="khorticahotel_name">Khortitsa Palace Hotel</string>
+    <string name="khorticahotel_adr">Shevchenko avenue 71A, Zaporozhye, 69091, Ukraine</string>
+    <string name="khorticahotel_phone">-</string>
+    <string name="khorticahotel_about">This property is 4 minutes walk from the beach. Just a
+        5-minute drive from the Zaporozhye city centre, Khortitsa Palace Hotel features an on-site
+        shop, modern rooms with free Wi-Fi.\n\nAll the spacious, air-conditioned rooms have a
+        seating area. Some rooms have a balcony with a city or river view.\n\nThe modern Flavours
+        restaurant serves Ukrainian and European cuisine. Drinks can be enjoyed at the 2 bars and
+        on the summer terrace.\n\Leisure facilities at Khortitsa Palace Hotel include a sauna,
+        a steam room and a fitness centre. There is a 24-hour reception.\n\nThe Bulvar Shevtchenko
+        Bus Stop is a 2-minute walk from the hotel and the railway station is only 20 minutes by
+        car. Airport Zaporozhye is 20 km away.
+                </string>
+    <!--Prague Hotel-->
+    <string name="praguehotel_name">Prague Hotel</string>
+    <string name="praguehotel_adr">Shevchenko Boulevard 28 , Zaporozhye, 69001, Ukraine</string>
+    <string name="praguehotel_phone">-</string>
+    <string name="praguehotel_about">This property is 12 minutes walk from the beach. Featuring
+        free Wi-Fi and free private parking, this hotel is located in Zaporizhzhya city, 12 minutes
+        walk from the central Prospekt Lenina. It also offers free daily bottle of water in the rooms.\n
+        \nEach air-conditioned room at Prague Hotel is decorated in a classic style and includes a
+        fridge. A hairdryer is provided in the bathrooms.\n\nA daily breakfast is served in the
+        dining room of Prague, and several restaurants offering Ukrainian and European cuisines
+        can be found within a 5-minute walk of the hotel.\n\nZaporizhzhya city centre with the
+        City Park are 7 km from Prague Hotel, while Zaporizhzhya 1 Train Station is 16 minutes
+        drive away. It is 19 km from Zaporizhzhya Airport.
+                </string>
+    <!--SUNRISE Park-->
+    <string name="sunricsehotel_name">SUNRISE Park</string>
+    <string name="sunricsehotel_adr">ул. Глиссерная, 1 А, Zaporozhye, 69002, Ukraine</string>
+    <string name="sunricsehotel_phone">-</string>
+    <string name="sunricsehotel_about">SUNRISE Park offers accommodation in Zaporozhye. The hotel has a children\'s playground and terrace, and guests can enjoy a meal at the restaurant. Free WiFi is available throughout the property and free private parking is available on site.
+\n\n
+Every room is equipped with a flat-screen TV with satellite channels. Each room comes with a private bathroom with a bath or shower and bidet, with slippers and free toiletries provided.
+\n\n
+There is a 24-hour front desk at the property. Banquet facilities, a seasonal terrace and a hookah lounge are featured. Bike hire is also available.
+\n\n
+Zaporizhia Airport is 13 km away. Zaporizhia Train Station is 11 km from the property.
+                </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
