@@ -6,8 +6,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.support.v4.app.NavUtils;
+import android.support.v4.widget.TextViewCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.util.TypedValue;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -75,6 +75,7 @@ public class more extends AppCompatActivity {
 
         TextView name = findViewById(R.id.bigSightName);
         name.setText(sight.getName());
+        TextViewCompat.setAutoSizeTextTypeWithDefaults(name, TextViewCompat.AUTO_SIZE_TEXT_TYPE_UNIFORM);
 
 
         TextView about = findViewById(R.id.about);

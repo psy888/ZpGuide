@@ -16,8 +16,7 @@
 
 
     <!--__________________Museums fragment_____________________-->
-    <!-- Hortica -->
-    <string name="name_Hortica">Khortitsa National Nature Reserve</string>
+
 
     <!--__________________Hotels fragment_____________________-->
     <!--  "Intourist Hotel" -->
@@ -104,6 +103,5 @@ There is a 24-hour front desk at the property. Banquet facilities, a seasonal te
 \n\n
 Zaporizhia Airport is 13 km away. Zaporizhia Train Station is 11 km from the property.
                 </string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
