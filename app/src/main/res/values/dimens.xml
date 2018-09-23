@@ -4,5 +4,6 @@
     <dimen name="p">16sp</dimen>
     <dimen name="h1">32sp</dimen>
     <dimen name="h2">24sp</dimen>
-    <dimen name="neg_marg">-44dp</dimen>
+    <dimen name="neg_marg">-50dp</dimen>
+    <dimen name="smallImg">72dp</dimen>
 </resources>

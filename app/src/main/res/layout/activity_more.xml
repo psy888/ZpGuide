@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,12 +20,13 @@
         <TextView
             android:id="@+id/bigSightName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginTop="@dimen/neg_marg"
-            android:paddingLeft="@dimen/def_padding"
+            android:padding="@dimen/def_padding"
             android:textSize="@dimen/h1"
             android:textColor="@color/def_color"
             android:background="#80ffffff"
+            app:autoSizeTextType="uniform"
             tools:text="Hello World" />
 
         <TextView
@@ -50,6 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/def_padding"
+            android:layout_marginBottom="@dimen/fab_margin"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"
             tools:text="г.Запорожье пр-т. Соборный, 142" />

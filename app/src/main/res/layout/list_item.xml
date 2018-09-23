@@ -2,40 +2,37 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@dimen/def_padding">
+    android:layout_height="@dimen/smallImg"
+    android:paddingLeft="@dimen/def_padding"
+    android:paddingRight="@dimen/def_padding">
 
     <ImageView
         android:id="@+id/sightPic"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
-        tools:src="@mipmap/ic_launcher" />
+        android:layout_width="@dimen/smallImg"
+        android:layout_height="@dimen/smallImg"
+        android:scaleType="centerCrop"
+        tools:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/imgDescr" />
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
+        android:maxHeight="@dimen/smallImg"
+        android:layout_toEndOf="@id/sightPic"
+        android:orientation="vertical"
         android:layout_toRightOf="@id/sightPic"
-        android:orientation="vertical">
+        android:layout_alignParentRight="true">
 
         <TextView
             android:id="@+id/sightName"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingBottom="4dp"
             android:textSize="@dimen/p"
-            android:gravity="center"
-            android:textAlignment="gravity"
+            android:paddingLeft="@dimen/def_padding"
+            android:gravity="center_vertical"
             android:textColor="@color/def_color"
             tools:text="Hello World" />
-<!--
-        <TextView
-            android:id="@+id/phone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/h2"
-            tools:text="80661112223" />
--->
     </LinearLayout>
 </RelativeLayout>

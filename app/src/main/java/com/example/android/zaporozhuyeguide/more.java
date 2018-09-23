@@ -76,20 +76,28 @@ public class more extends AppCompatActivity {
         TextView name = findViewById(R.id.bigSightName);
         name.setText(sight.getName());
 
-        //name.setAutoSizeTextTypeUniformWithConfiguration(16, 48, 2, TypedValue.COMPLEX_UNIT_SP);
 
         TextView about = findViewById(R.id.about);
         about.setText(sight.getAbout());
 
 
         TextView phone = findViewById(R.id.bigPhone);
-        phone.setText(sight.getPhone());
-        //click listener and call intent
-        phone.setOnClickListener(click);
+        String phoneNumber = sight.getPhone();
+
+        if(phoneNumber.contentEquals("-")) {
+            phone.setVisibility(View.GONE);
+        }
+        else
+        {
+            phone.setText(phoneNumber);
+            //click listener and call intent
+            phone.setOnClickListener(click);
+        }
+
 
 
         TextView adress = findViewById(R.id.bigAdress);
-        adress.setText(sight.getAdress());
+        adress.setText(R.string.map );
         // click listener and maps intent
         adress.setOnClickListener(click);
 

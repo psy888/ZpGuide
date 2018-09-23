@@ -23,9 +23,17 @@ public class PagerAdapter extends FragmentPagerAdapter {
             case 0:
                 return new MuseumsFragment();
             case 1:
-                return new RestaurantsFragment();
+                return new FoodFragment();
             case 2:
-                return new PlacesFragment();
+                return new NightlifeFragment();
+            case 3:
+                return new ShoppingFragment();
+            case 4:
+                return new EntertainmentFragment();
+            case 5:
+                return new HotelsFragment();
+            case 6:
+                return new GymsFragment();
             default:
                 return null;
         }
@@ -34,7 +42,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
     //Задаем количество вкладок
     @Override
     public int getCount() {
-        return 3;
+        return 7;
     }
 
     //Заголовок Вкладки получаем из строк
@@ -43,11 +51,19 @@ public class PagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return mContext.getString(R.string.museums_fragment);
+                return mContext.getString(R.string.museums);
             case 1:
-                return mContext.getString(R.string.restaurants);
+                return mContext.getString(R.string.food);
             case 2:
-                return mContext.getString(R.string.places);
+                return mContext.getString(R.string.nightlife);
+            case 3:
+                return mContext.getString(R.string.shopping);
+            case 4:
+                return mContext.getString(R.string.entertainment);
+            case 5:
+                return mContext.getString(R.string.hotels);
+            case 6:
+                return mContext.getString(R.string.gyms);
             default:
                 return null;
         }

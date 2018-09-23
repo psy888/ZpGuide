@@ -18,10 +18,10 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  * Категория Музеи
  */
-public class RestaurantsFragment extends Fragment {
+public class NightlifeFragment extends Fragment {
 
 
-    public RestaurantsFragment() {
+    public NightlifeFragment() {
         // Required empty public constructor
     }
 
@@ -33,13 +33,13 @@ public class RestaurantsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.sights_list, container, false);
 
         //Сосдаем массив объектов достопремечательностей
-        final ArrayList<Sights> restaurants = new ArrayList<>();
+        final ArrayList<Sights> places = new ArrayList<>();
 
         //Добавляем записи в массив
-        //restaurants.add(new Sights("Ресторан Россия", "пр-т. Ленина 182", "0612565111", "Ресторан вкусно дорого и т.д", R.drawable.khort));
+        //places.add(new Sights("Площадь ленина", "пр-т. Ленина 196", "0612777777", "стоял ленин", R.drawable.khort));
 
         //Создание экземпляра адаптера для ListView
-        SightsAdapter sightsAdapter = new SightsAdapter(getActivity(), restaurants);
+        SightsAdapter sightsAdapter = new SightsAdapter(getActivity(), places);
 
         //Инициализация целевого  ListView
         ListView listView = rootView.findViewById(R.id.list);
@@ -54,7 +54,7 @@ public class RestaurantsFragment extends Fragment {
                 //Создание намеренья открыть класс more
                 Intent moreIntent = new Intent(getActivity(), more.class);
                 //  упаковка текущего (нажатого) объекта в Parcel и добавление к намеренью как Extra
-                moreIntent.putExtra("currentSight", Parcels.wrap(restaurants.get(position)));
+                moreIntent.putExtra("currentSight", Parcels.wrap(places.get(position)));
                 // Запуск активити (more class) с переданным объектом
                 startActivity(moreIntent);
 
